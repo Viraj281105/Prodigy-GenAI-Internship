@@ -81,14 +81,14 @@ Here are a few images generated using this script.
 ### Cyberpunk City
 > **Prompt**: `"a (cyberpunk:1.3) city at night, (neon lights:1.2)" -n "daytime, blurry" -s 50 -num 4 -sd 12345`
 
-![Cyberpunk City](cyberpunk_grid.png)
+![Cyberpunk City](scripts/cyberpunk_grid.png)
 
 ### Studio Ghibli Style
 > **Prompt**: `"(Studio Ghibli style:1.3), a cozy artist's studio, (sunlight streaming through a window:1.1)" -n "realistic, photo" -s 40 -num 4 -sd 123`
 
-![Studio Ghibli](ghibli_studio.png)
+![Studio Ghibli](scripts/ghibli_studio.png)
 
 ### Oil Painting
 > **Prompt**: `"an (oil painting:1.4) of an old sea captain, (weathered face:1.3), (dramatic lighting:1.2)" -n "photo, 3d render" -s 50 -num 4 -sd 555`
 
-![Captain Painting](captain_painting.png)
+![Captain Painting](scripts/captain_painting.png)
