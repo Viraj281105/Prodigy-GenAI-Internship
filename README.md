@@ -73,5 +73,3 @@ The final Generator Loss is a weighted sum:
     ```bash
     pip install -r requirements.txt
     ```
-
-**`requirements.txt`:**
