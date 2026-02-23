@@ -1,0 +1,27 @@
+echo "
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Datasets
+data/
+
+# Model Checkpoints
+checkpoints/
+*.pth
+
+# Generated Images
+outputs/
+
+# Python & Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Environment files
+.env
+
+# OS-specific
+.DS_Store
+" > .gitignore
