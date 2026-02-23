@@ -1,35 +1,86 @@
-# Prodigy InfoTech - Generative AI Internship
+# 🧠 Prodigy InfoTech — Generative AI Internship
 
-This repository contains all 5 tasks completed during the Prodigy InfoTech Generative AI Internship.
+This repository contains all **5 tasks** completed during the **Prodigy InfoTech Generative AI Internship**, covering a range of generative AI techniques from classical statistical models to deep neural networks.
 
-## Repository Structure
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-99.5%25-orange)
+![Python](https://img.shields.io/badge/Python-0.5%25-blue)
+![GitHub stars](https://img.shields.io/github/stars/Viraj281105/Prodigy-GenAI-Internship?style=social)
 
-- Task_01_GPT2_Text_Generation/        - Fine-tune GPT-2 on Sherlock Holmes
-- Task_02/                             - See task folder for details
-- Task_03_Markov_Chain_Text_Generator/ - N-gram Markov Chain text generation
-- Task_04_Pix2Pix_Image_Translation/   - cGAN image-to-image translation
-- Task_05_Neural_Style_Transfer/       - Neural Style Transfer with VGG-19
+---
 
-## Tasks
+## 🗂️ Repository Structure
 
-### Task 01 - GPT-2 Fine-Tuning
-Fine-tune GPT-2 on The Adventures of Sherlock Holmes to generate Victorian-style text.
-Stack: Python, PyTorch, Hugging Face Transformers
+```
+Prodigy-GenAI-Internship/
+├── Task_01_GPT2_Text_Generation/              # Fine-tune GPT-2 on Sherlock Holmes
+├── Task_02_Stable_Diffusion_Text_to_Image/    # Text-to-image generation with Stable Diffusion
+├── Task_03_Markov_Chain_Text_Generator/       # N-gram Markov Chain text generation
+├── Task_04_Pix2Pix_Image_Translation/         # cGAN image-to-image translation
+├── Task_05_Neural_Style_Transfer/             # Neural Style Transfer with VGG-19
+└── README.md
+```
 
-### Task 02
-See Task_02/README.md for details.
+---
 
-### Task 03 - Markov Chain Text Generator
-N-gram statistical text generation with 3 iterations (bigram, n-gram, weighted n-gram).
-Stack: Python (stdlib only)
+## 📋 Tasks
 
-### Task 04 - Pix2Pix Image Translation
-Conditional GAN (U-Net + PatchGAN) translating building facade segmentation maps to photos.
-Stack: Python, PyTorch
+---
 
-### Task 05 - Neural Style Transfer
-Apply Van Gogh Starry Night style to a castle photo using VGG-19 feature optimization.
-Stack: Python, PyTorch, torchvision
+### Task 01 — GPT-2 Fine-Tuning
 
-## License
-MIT
+Fine-tune GPT-2 on *The Adventures of Sherlock Holmes* to generate Victorian-style detective fiction text.
+
+**Stack:** Python, PyTorch, Hugging Face Transformers
+
+---
+
+### Task 02 — Stable Diffusion Text-to-Image
+
+Generate high-quality images from text prompts using Stable Diffusion. Explores prompt engineering and diffusion-based image synthesis.
+
+**Stack:** Python, Diffusers, Hugging Face, PyTorch
+
+---
+
+### Task 03 — Markov Chain Text Generator
+
+Statistical text generation using N-gram models across 3 iterations of increasing sophistication:
+
+1. **Bigram** — simple 2-word chain transitions
+2. **N-gram** — configurable higher-order chains
+3. **Weighted N-gram** — probability-weighted sampling for more coherent outputs
+
+**Stack:** Python (stdlib only — no external ML dependencies)
+
+---
+
+### Task 04 — Pix2Pix Image Translation
+
+Conditional GAN (cGAN) implementation translating building facade segmentation maps into photorealistic images using the classic Pix2Pix architecture.
+
+- **Generator:** U-Net encoder-decoder with skip connections
+- **Discriminator:** PatchGAN for local realism scoring
+
+**Stack:** Python, PyTorch
+
+---
+
+### Task 05 — Neural Style Transfer
+
+Apply the artistic style of Van Gogh's *Starry Night* to a castle photograph using feature-level optimization over a pre-trained VGG-19 network.
+
+- Content + style loss via Gram matrix comparison
+- Iterative pixel-level optimization
+
+**Stack:** Python, PyTorch, torchvision
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **MIT License**.
+
+---
+
+*Completed as part of the Prodigy InfoTech Generative AI Internship.*
